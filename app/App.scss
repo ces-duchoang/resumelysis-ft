@@ -1,0 +1,51 @@
+@import "./scss/variables";
+
+#root {
+  width: 100%;
+  height: 100%;
+  background-color: $background;
+  background-image: url("./images/pattern.png");
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.App-header {
+  background-color: rgb(97, 97, 97);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  padding: 0.3em 1em;
+  padding-bottom: 2em;
+}
+@media only screen and (max-device-width: 480px) {
+  .container {
+    padding: 0.5em 0.5em 2em;
+  }
+}
+
+.ant-result-404 {
+  div {
+    color: white !important;
+  }
+}
