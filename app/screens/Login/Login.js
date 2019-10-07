@@ -1,6 +1,5 @@
 import React from "react";
 import "./Login.scss";
-import ShieldIcon from "../../images/shieldicon.png";
 import {
   Layout,
   Form,
