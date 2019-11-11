@@ -1,0 +1,16 @@
+
+.resume-file-viewer{
+    border: gray dashed 2px;
+    .header{
+        padding: 0.5em;
+        background-color: lighten(indianred, 20%);
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .message{
+        padding: 1em;
+        text-align: center;
+    }
+}
