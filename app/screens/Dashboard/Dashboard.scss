@@ -1,0 +1,60 @@
+.dashboard-container {
+    // padding: 2em 1em;
+}
+
+.top-menu {
+    padding-left: 1em;
+    background: white;
+    .resume-logo {
+        width: 34px;
+        height: 40px;
+        margin-top: 4px;
+    }
+}
+
+.content {
+    min-height: 100vh;
+    margin: 2em 3em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px;
+    box-shadow: 2px;
+}
+
+.icon-btn {
+    cursor: pointer;
+    :hover {
+        color: darkcyan;
+    }
+}
+
+.can-name {
+    font-weight: bold;
+}
+
+.can-email,
+.can-phone {
+    font-style: italic;
+    color: gray;
+    font-style: 80%;
+}
+
+.header-table-candidate {
+    margin-top: 1em;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+    padding-left: 1em;
+}
+.row-can {
+    cursor: pointer;
+    :hover {
+        background-color: lighten(gray, 45%);
+        border-radius: 5px;
+    }
+    .ant-row-flex-middle {
+        padding: 0.5em;
+    }
+}
