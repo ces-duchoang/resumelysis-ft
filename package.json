@@ -19,7 +19,7 @@
     "dotenv": "^8.0.0",
     "js-file-download": "^0.4.8",
     "lodash": "^4.17.15",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "react": "^16.8.4",
     "react-confirm-alert": "^2.4.1",
     "react-dom": "^16.8.4",
